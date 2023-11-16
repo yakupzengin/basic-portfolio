@@ -191,3 +191,45 @@ header{
     align-items: center;
     justify-content: center;
 }
+
+/* SERTİFİKALARIM */
+
+.inner_courses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.child_courses{
+    flex-basis: 24%;
+    color: var(--white);
+    padding: 20px 10px;
+    border: 1px solid transparent;
+    transition: 0.3s ;
+    border-radius: 5px;
+}
+.child_courses:hover{
+    border: 1px solid var(--main-color);
+}
+.child_courses .detail{
+    display: flex;
+    justify-content: space-between;
+}
+.child_courses .detail p {
+    font-size: 20px;
+    font-style: italic;
+
+}
+.child_courses .detail ul i {
+    font-size: 20px;
+    padding: 5px;
+}
+.child_courses h3{
+    font-size: 20px;
+    } 
+.child_courses .course_img{
+    /* width: 250px; */
+    /* height: ; */
+}
