@@ -233,3 +233,9 @@ header{
     /* width: 250px; */
     /* height: ; */
 }
+
+/* BAŞARILARIM */
+
+.inner_success .success_img img{
+    display: flex;
+}
