@@ -60,11 +60,12 @@ section{
 /* HEADER */
 
 header{
-    background:var(--black);
+    background:var(--white);
     border-bottom: 1px solid white;
     position: fixed;
     width: 100%;
     z-index: 5;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .navbar{
@@ -73,15 +74,18 @@ header{
     align-items: center ;
     margin: 0 auto;
     width: 80%;
-    height: 60px;
-    padding: 10px 0;
+    height: 80px;
+    padding: 20px 0;
 }
 .nav_links{
     display: flex;
 }
+.nav_links li {
+    margin-left: 15px;
+}
 .nav_links li a{
     margin-left: 15px;
-    color:var(--white);
+    color:var(--black);
     padding: 5px 15px;
     border-radius: 5px;
     font-size: 20px;
@@ -93,15 +97,15 @@ header{
 
 }
 .logo h2 a{
-    color: var(--white);
+    color: var(--black);
     font-weight: bolder;
     font-size: 30px;
     transition: all .9s ease-in-out;
 }
 .logo h2 a:hover {
     background: var(--white);
-    padding: 5px;
-    border-radius: 50px;
+    padding: 8px 15px;
+    border-radius: 8px;
     color: var(--black);
 }
 /* ANASAYFA */
@@ -294,7 +298,7 @@ transform: scale(0.5, 0.5);
     margin-bottom: 20px;
 }
 
-
+/* ABOUT */
 .inner_about{
     display: flex;
     flex-wrap: wrap;
@@ -319,8 +323,7 @@ transform: scale(0.5, 0.5);
 
 }
 .detail_about:hover{
-    background-color: #72b4e7;
-    transform: scale(1.03);
+    transform: scale(1.13);
 }
 .detail_about img{
     width: 100px;
@@ -342,4 +345,55 @@ transform: scale(0.5, 0.5);
     padding-top: 10px;
     font-size: 17px;
     color: #e7e6e6;
+}
+
+
+/* CONTACT */
+.inner_contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width:80%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    
+}
+.child_contact{
+    flex-basis: 45%;
+}
+.child_contact form{
+    padding:50px 40px;
+    background: #708ca1;
+    border-radius: 5px;
+}
+.child_contact form label{
+    padding-left: 5px;   
+}
+.child_contact form input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #2f363e;
+    border: none;
+    resize: none;
+    border-radius: 25px;
+    transition: .3s ease-in;
+
+}
+.child_contact form input,textarea:focus{
+    color: var(--white);
+}
+.child_contact form input:last-child{
+    margin-bottom: 0;
+    cursor: pointer;
+    background: rgb(197, 82, 41);
+    border: 1px solid  rgb(197, 82, 41) ;
+    transform: .3s;
+    color:ghostwhite ;
+    font-size: large;
+}
+.child_contact form input:last-child:hover{
+    background-color:  rgb(255, 68, 0);
+    
 }
