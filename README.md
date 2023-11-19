@@ -12,9 +12,7 @@ This is a simple and responsive portfolio website template. It is designed to sh
 - [Contact](#contact)
 - [License](#license)
 
-## Demo
 
-You can see a live demo of the portfolio website [here](#).
 
 ## Technologies Used
 
