@@ -166,6 +166,36 @@
     margin-bottom: 20px;
    }
 
-   
+    /* FOOTER */
 
+    .child_footer{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .child_footer h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .child_footer p{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer_social li a{
+        margin-left: 65px;
+    }
+    .child_footer ul li a{
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer_contacts li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5px 0;
+    }
 }
