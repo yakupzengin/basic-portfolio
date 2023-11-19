@@ -104,9 +104,11 @@ header{
 }
 .logo h2 a:hover {
     background: var(--white);
-    padding: 8px 15px;
     border-radius: 8px;
     color: var(--black);
+}
+.menu_bar{
+    display: none;
 }
 /* ANASAYFA */
 
@@ -161,7 +163,7 @@ header{
     margin: 0 auto;
 }
 .innersoftware_child{
-    flex-basis: 31%;
+    flex-basis: 33%;
     padding: 25px 20px;
     margin: 50px 0 ;
     background: rgba(38, 46, 55, 0.281);

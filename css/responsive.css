@@ -1,0 +1,171 @@
+@media screen and (max-width:770px) {
+    :root{
+        --main-color:#24caac;
+        --black:#000000;
+        --white:#ffffff;
+        --red:#da156e;
+        --grey:#708ca1;
+        --lightBlue:#265b84;
+        --sd_1:#eaa023;
+        --sd_2:#e91e63;
+        --sd_3:#24caac;
+        --sd_4:#2f363e;
+    }
+    .navbar{
+        width: 90%;
+    }
+    .logo h2 a{
+        font-size: 20px;
+    }
+    .menu_bar{
+        display: grid;
+        color: var(--sd_4);
+        position: absolute;
+        right: 5%;
+        top: 20%;
+        border: 1px solid white;
+        width: 30px;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+    .nav_links{
+        flex-direction: column;
+        position:absolute;
+        background:white;
+        width: 100%;
+        left: -20px;
+        margin: 5px;
+        padding: 0;
+    }
+    .nav_links li a{
+        border-bottom: 1px solid var(--sd_4) ;
+        display: block;
+        border-radius: 0;
+        padding: 10px 0 10px 5px;
+        margin: 0 20px;
+    }
+    .nav_links li a:last-child{
+        border-bottom: none;
+    }
+    .inner_anasayfa{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .child_anasayfa{
+        flex-basis: 100%;
+    }
+    .inner_anasayfa:last-child{
+        margin-bottom: 20px;
+    }
+    .inner_anasayfa h1{
+        font-size: 30px;
+        line-height: 35px;
+        margin-top: 40px;
+    }
+    .inner_anasayfa p{
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;   
+    }
+    .inner_anasayfa .span_child{
+        display: flex;
+        font-size: 25px;
+        align-items: center;
+        justify-content: center;   
+    }
+    .inner_anasayfa .btn{
+        padding: 20px;
+        margin: 0 20%;
+        margin-top: 20px;
+    }
+
+
+    /* yazılımlar */
+    .innersoftware{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    .innersoftware_child {
+        margin: 20px 0 0 0 ;
+    }
+    .innersoftware_child h3 {
+        padding-top: 10px;
+        font-size: px;
+    }
+    .innersoftware_child p{
+        font-size: 20px;
+    }
+    .innersoftware_child .icon{
+        font-size: 30px;
+        padding-top: 20px;
+    }
+    /* SERTİFİKALARIM */
+    .child_courses{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    /* BASARILAR */
+    .child_achievement_img{
+        flex-basis: 100%;
+        margin-bottom: 30px; 
+    }
+    .child_achievement_box{
+        flex-basis: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .single_detail {
+        width: 70%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .single_detail h1{
+        display: flex;
+        justify-content: center;
+    }
+    .single_detail p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* hakkımda */
+    
+    .detail_about{
+        flex-basis: 100%;
+        margin-bottom: 40px;
+    }
+    .detail_about:last-child{
+        margin-bottom: 0;
+    }
+    .detail_img , .detail_name , .detail_position{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:100% ;
+   }
+   .detail_p{
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    
+   }
+
+   /* İLETİSİM  */
+   .child_contact{
+    flex-basis: 100%;
+    margin-bottom: 20px;
+   }
+
+   
+
+}
