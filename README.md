@@ -1,10 +1,9 @@
 # Portfolio Web Site
 
-This is a simple and responsive portfolio website template. It is designed to showcase your software skills, certificates, achievements, and provide information about you. The template includes sections for homepage, software skills, certificates, achievements, about me, and contact.
+  This is a simple and responsive portfolio website template. It is designed to showcase your software skills, certificates, achievements, and provide information about you. The template includes sections for homepage, software skills, certificates, achievements, about me, and contact.
 
 ## Table of Contents
 
-- [Demo](#demo)
 - [Technologies Used](#technologies-used)
 - [Features](#features)
 - [How to Use](#how-to-use)
@@ -43,4 +42,4 @@ This is a simple and responsive portfolio website template. It is designed to sh
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+https://github.com/yakupzengin/basic-portfolio.git
